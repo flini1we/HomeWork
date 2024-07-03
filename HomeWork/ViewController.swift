@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     
     let adminLogin: String = "admin"
     let adminPassword: String = "admin"
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,7 +45,7 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "SecondViewCOntroller" {
+        if segue.identifier == "SecondViewController" {
             
         }
     }
